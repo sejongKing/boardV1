@@ -15,7 +15,7 @@ public class HomeController {
             @SessionAttribute(name = SessionConst.LOGIN_MEMBER, required = false)Member loginMember,
             Model model){
         if (loginMember == null) {
-            //ㅇㄹㅇㄹ
+            //푸시
             return "index";
         }
 //        log.info("name={}", loginMember.getName());
